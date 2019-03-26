@@ -282,7 +282,7 @@
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/master/images/iot_openhab.png",
         "displayName": "openHAB",
         "name": "openhab/openhab",
-        "version": "2.2.0-amd64-debian",
+        "version": "2.4.0-amd64-debian",
         "location": "https://hub.docker.com/r/openhab/openhab/",
         "type": "iot",
         "qcsVersion": "1.8"
@@ -294,7 +294,7 @@
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/master/images/iot_openhab.png",
         "displayName": "openHAB",
         "name": "openhab/openhab",
-        "version": "2.2.0-armhf-alpine",
+        "version": "2.4.0-armhf-alpine",
         "location": "https://hub.docker.com/r/openhab/openhab/",
         "type": "iot",
         "qcsVersion": "1.8"
