@@ -16,4 +16,4 @@ services:
     ports:
       - "10083:80"
     volumes:
-      - /share/Public/container-station-data/application/redmine:/home/redmine/data
+      - /share/Public/container-station-data/application/redmine/data:/home/redmine/data
