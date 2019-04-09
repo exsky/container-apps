@@ -15,3 +15,5 @@ services:
       - REDMINE_PORT=10083
     ports:
       - "10083:80"
+    volumes:
+      - /share/Public/container-station-data/application/redmine:/home/redmine/data
