@@ -17,7 +17,7 @@
         "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/master/images/app_redmine.png",
         "displayName": "Redmine",
         "name": "redmine",
-        "version": "3.4.2",
+        "version": "3.4.10",
         "location": "https://hub.docker.com/r/sameersbn/redmine/",
         "type": "app"
     },
