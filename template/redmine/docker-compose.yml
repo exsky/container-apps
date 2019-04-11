@@ -39,6 +39,7 @@ services:
     - "10083:80"
     volumes:
     - redmine:/home/redmine/data
+    - ./postgresql.conf.sample:/usr/share/postgresql/9.6/postgresql.conf.sample
 
 volumes:
   postgresql:
