@@ -4,6 +4,8 @@ postgresql:
     - DB_USER=redmine
     - DB_PASS=password
     - DB_NAME=redmine_production
+  volumes:
+    - ./postgresql.conf.sample:/usr/share/postgresql/9.6/postgresql.conf.sample
 redmine:
   image: sameersbn/redmine:3.4.6
   links:
