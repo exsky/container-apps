@@ -254,7 +254,7 @@ wal_sender_timeout = 0	# in milliseconds; 0 disables
 
 # These settings are ignored on a master server.
 
-#hot_standby = off			# "on" allows queries during recovery
+hot_standby = on			# "on" allows queries during recovery
 					# (change requires restart)
 #max_standby_archive_delay = 30s	# max delay before canceling queries
 					# when reading WAL from archive;
