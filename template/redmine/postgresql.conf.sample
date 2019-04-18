@@ -234,7 +234,7 @@
 #max_wal_senders = 0		# max number of walsender processes
 				# (change requires restart)
 #wal_keep_segments = 0		# in logfile segments, 16MB each; 0 disables
-wal_sender_timeout = 6000s	# in milliseconds; 0 disables
+wal_sender_timeout = 3600s	# in milliseconds; 0 disables
 
 #max_replication_slots = 0	# max number of replication slots
 				# (change requires restart)
@@ -266,7 +266,7 @@ hot_standby = on			# "on" allows queries during recovery
 					# 0 disables
 #hot_standby_feedback = off		# send info from standby to prevent
 					# query conflicts
-#wal_receiver_timeout = 60s		# time that receiver waits for
+wal_receiver_timeout = 3600s		# time that receiver waits for
 					# communication from master
 					# in milliseconds; 0 disables
 #wal_retrieve_retry_interval = 5s	# time to wait before retrying to
