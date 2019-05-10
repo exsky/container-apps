@@ -22,5 +22,53 @@
         "location": "https://hub.docker.com/r/nipapa/debs-packer/",
         "type": "render",
         "qcsVersion": "1.8"
+    },
+    {
+        "description": "This is a test for spec 21204",
+        "repository": "dockerhub",
+        "arch": "armhf",
+        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/ai_default.png",
+        "displayName": "Render App 3",
+        "name": "nipapa/npp",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/nipapa/npp/",
+        "type": "render",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "This is another test app for spec 21204",
+        "repository": "dockerhub",
+        "arch": "armhf",
+        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/ai_default.png",
+        "displayName": "Render App 4",
+        "name": "nipapa/debs-packer",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/nipapa/debs-packer/",
+        "type": "render",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "This is a test for spec 21204",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/ai_default.png",
+        "displayName": "Render App 5",
+        "name": "nipapa/npp",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/nipapa/npp/",
+        "type": "render",
+        "qcsVersion": "1.8"
+    },
+    {
+        "description": "This is another test app for spec 21204",
+        "repository": "dockerhub",
+        "arch": "arm64",
+        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/ai_default.png",
+        "displayName": "Render App 6",
+        "name": "nipapa/debs-packer",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/nipapa/debs-packer/",
+        "type": "render",
+        "qcsVersion": "1.8"
     }
 ]
